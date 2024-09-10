@@ -1,0 +1,26 @@
+Quantidade_de_kwh_gasto = float(input("digite a quantidade de kwh consumida"))
+Tipo_de_instalação = float(input(" R para resistencia< i para insdustrias, C para comercios"))
+
+if Tipo_de_instalação == "r" and  Quantidade_de_kwh_gasto <= 500:
+    valor = Quantidade_de_kwh_gasto * 0,40
+    print(valor)
+
+if Tipo_de_instalação == "r" and  Quantidade_de_kwh_gasto >= 500:
+    valor = Quantidade_de_kwh_gasto * 0,65
+    print(valor)
+
+if Tipo_de_instalação == "c" and  Quantidade_de_kwh_gasto <= 1000:
+    valor = Quantidade_de_kwh_gasto * 0,55
+    print(valor)
+
+elif Tipo_de_instalação == "c" and  Quantidade_de_kwh_gasto >= 1000:
+    valor = Quantidade_de_kwh_gasto * 0,60
+    print(valor)
+
+elif Tipo_de_instalação == "i" and  Quantidade_de_kwh_gasto <= 5000:
+    valor = Quantidade_de_kwh_gasto * 0,55
+    print(valor)
+
+elif Tipo_de_instalação == "i" and  Quantidade_de_kwh_gasto >= 5000:
+    valor = Quantidade_de_kwh_gasto * 0,60
+    print(valor)
