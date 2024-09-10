@@ -1,0 +1,16 @@
+media = 7 
+
+nota1 = int(input("digite sua nota"))
+nota2 = int(input("digite sua nota"))
+nota3= int(input("digite sua nota"))
+
+calcular = (nota1 + nota2 + nota3 )
+
+media =  calcular / 3
+print(f" sua media é {media}")
+
+
+if media<= 6:
+  print("reprovado ")
+elif media >= 7:
+  print("aprovado")
