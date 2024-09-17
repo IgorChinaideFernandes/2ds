@@ -1,0 +1,11 @@
+Dias = 60
+preço_por_KM = 0,15
+
+quantidade_de_dias_alugados = float(input("digite a quantidade de dias "))
+quantidade_de_KM_percorridos = float(input("digite a quantidade de KM percorridos "))
+
+custo_do_dia = Dias*quantidade_de_dias_alugados
+custo_por_KM = quantidade_de_dias_alugados*quantidade_de_KM_percorridos
+Total = quantidade_de_dias_alugados+quantidade_de_KM_percorridos
+
+print(f"a quantidade final é de {Total}")
