@@ -58,19 +58,7 @@ estoque.mostrar_estoque()
 
 
 
-PROBLEMS
 
-OUTPUT
-
-DEBUG CONSOLE
-
-TERMINAL
-
-PORTS
-
-AzureAD+GUILHERMEPATRICKGIME@MININT-4U1GRGD MINGW64 ~/.vscode (master)
-
-$ git add main.py
 
 Azure AD GUILHERNEPATRICKGIME@MININT-4U1GRGD MINGW64 ~/.vscode (master)
 
